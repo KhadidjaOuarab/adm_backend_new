@@ -4,8 +4,8 @@
 
 const express = require('express');
 const routerUser = express.Router();
-const userController = require('../Controllers/User.controller');
-const verifyToken = require('../middleware/authMiddleware');
+const userController = require('../Controllers/User.controller.js');
+const verifyToken = require('../middleware/authMiddleware.js');
 // Adding a couple of routes to the router using the get() method. After we export the route object
 
 routerUser.get('/AllUsers', userController.getAllUsers);

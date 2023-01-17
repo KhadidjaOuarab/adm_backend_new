@@ -1,4 +1,4 @@
-const AdmModel = require("../Models/Adm.model");
+const AdmModel = require("../Models/Adm.model.js");
 const admController = {};
 const asyncHandler = require("express-async-handler");
 const generateToken = require("../utils/generateToken.js");
