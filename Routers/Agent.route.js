@@ -4,7 +4,7 @@
 
 const express = require('express');
 const routerAgent = express.Router();
-//const agentController = require('/src/Controllers/Agent.controller.js');
+const agentController = require('/ADMAH/Backend/Controllers/Agent.controller.js');
 // Adding a couple of routes to the router using the get() method. After we export the route object
 
 routerAgent.get('/AllAgents', agentController.getAllAgents);
