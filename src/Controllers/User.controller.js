@@ -1,4 +1,4 @@
-const UserModel = require("../Models/User.model");
+const UserModel = require("../Models/User.model.js");
 const userController = {};
 const asyncHandler = require("express-async-handler");
 const generateToken = require("../utils/generateToken.js");
